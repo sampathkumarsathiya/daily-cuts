@@ -1,0 +1,21 @@
+@use '@angular/material' as mat;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@include mat.core();
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F7FA;
+    color: #222222;
+}
+
+/* Import prebuilt theme */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
